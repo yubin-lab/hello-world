@@ -9,7 +9,6 @@ public class HashMapTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String answer = "";
-		Scanner scan = new Scanner(System.in);
 		String[] participant = {"mislav", "stanko", "mislav", "ana"};
 		String[] completion = {"stanko", "ana", "mislav"};
 		Map<String, Integer> map = new HashMap<String, Integer>();
@@ -29,7 +28,7 @@ public class HashMapTest {
 		}
 		System.out.println(map);
 		System.out.println(answer);
-		System.out.println(solution(12));
+		System.out.println(solution(24));
 	}
 	
 	
